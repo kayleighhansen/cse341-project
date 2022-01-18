@@ -12,25 +12,28 @@
 .form-control input {
     display: block;
     width: 100%;
+    font-size: 20px;
 }
 
 .form-control input {
-    border: 1px solid #dbc441;
     font: inherit;
-    border-radius: 2px;
+    border-radius: 5px;
+    border: 2px solid #3f8aaa;
+    font-size: 22px;
+    margin-top: 10px;
 }
 
 button {
     font: inherit;
-    border: 1px solid #3e00a1;
-    color: #3e00a1;
+    border: 2px solid #3f8aaa;
+    color: #3f8aaa;
     background: white;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover,
 button:active {
-    background-color: #3e00a1;
+    background-color: #3f8aaa;
     color: white;
 }
