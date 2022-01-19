@@ -1,3 +1,9 @@
 .product-form {
     padding-top: 50px;
 }
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #3f8aaa;
+}
