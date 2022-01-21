@@ -86,3 +86,10 @@ article:hover {
     background-color: #3f8aaa;
     color:white;
 }
+
+.detail-img {
+    max-height: 300px;
+    min-width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
