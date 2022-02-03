@@ -1,0 +1,24 @@
+{
+  "name": "prove",
+  "version": "1.0.0",
+  "description": "Prove 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-handlebars": "^3.0.2",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.8",
+    "pug": "^3.0.2"
+  }
+}
